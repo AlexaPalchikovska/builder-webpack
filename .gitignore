@@ -1,0 +1,8 @@
+**/.DS_Store
+/public/
+/node_modules/
+.vscode/
+.idea
+*.code-workspace
+/**/.idea/
+package-lock.json
