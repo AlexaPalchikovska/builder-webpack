@@ -1,0 +1,21 @@
+.pay {
+    width: 88px;
+    height: 24px;
+}
+
+.payment {
+    display: flex;
+    width: 300px;
+    height: 200px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 16px;
+    @include bp1(){
+        width: 528px;
+        height: 112px;
+    }
+    @include bp2(){
+        width: 944px;
+    }
+}   

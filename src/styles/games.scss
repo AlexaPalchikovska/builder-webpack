@@ -1,0 +1,30 @@
+.game {
+    width: 83.3px;
+    height: 128.5px;
+    @include bp1(){
+        width: 73.85px;
+        height: 113px;
+    }
+    @include bp2(){
+        width: 149px;
+        height: 238px;
+    }
+}
+
+.games {
+    display: flex;
+    width: 280px;
+    height: 270px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 5px;
+    @include bp1(){
+        width: 500px;
+        height: 113px;
+    }
+    @include bp2(){
+        width: 93%;
+        height: 238px;
+    }
+}

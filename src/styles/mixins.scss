@@ -1,0 +1,23 @@
+@mixin bp3() {
+    @media (min-width: 1920px){
+        @content;    
+    }
+}
+
+@mixin bp2() {
+    @media (min-width: 1024px){
+        @content;
+    }
+}
+
+@mixin bp1() {
+    @media (min-width: 540px){
+        @content;    
+    }
+}
+
+@mixin bp0() {
+    @media (max-width: 530px){
+        @content;    
+    }
+}
