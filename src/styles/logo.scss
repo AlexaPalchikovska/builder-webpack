@@ -1,0 +1,29 @@
+.logo {
+    background: url(img/logo-small.png) no-repeat center / contain;
+    width: 173px;
+    height: 53.39px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    margin-top: -11%;
+    margin-left: -1%;
+    z-index: 1;
+    
+    @include bp1(){
+        background: url(img/logo-540.png) no-repeat center / contain;
+        width: 527px;
+        height: 128px;
+        top: 33px;
+        left: 0;
+        margin-top: 0;
+        margin-left: 5;
+    }
+    
+    @include bp2(){
+        background: url(img/logo-768.png) no-repeat center / contain;
+        width: 836.82px;
+        height: 213px;
+        height: 213px;
+        margin: 89 28 0;
+    }
+}

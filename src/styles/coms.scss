@@ -1,0 +1,23 @@
+.coms {
+    position: absolute;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #FF540C;
+    top: 50%;
+    left: 52%;
+    margin-top: 11%;
+    @include bp1(){
+        font-size: 24px;
+        z-index: 3;
+        top: 26%;
+        left: 65%;
+    }
+    @include bp2(){
+        font-weight: 500;
+        font-size: 56px;
+        line-height: 140%;
+        top: 49%;
+        left: 60%;
+    }
+}
