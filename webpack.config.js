@@ -18,7 +18,7 @@ module.exports = ( env, argv ) => {
             rules: [
                 {
                     test: /\.pug$/,
-                    use: ['file-loader?name=[name].html', 'pug-html-loader']
+                    use: ['file-loader?name=[name].html', 'pug-plain-loader']
                 },
                 {
                     test: /\.scss$/,
